@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Commodus";
+    src: url("CommodusRegular.otf") format("truetype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: "Commodus";
+    font-weight: 100;
+}
+
+.bottom {
+    margin-bottom: 10rem;
+}
+
+.rotated {
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+}
+
+.txt1 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 28%;
+    left: 36%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt2 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 138%;
+    left: 40%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt3 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 260%;
+    left: 40%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt4 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 392%;
+    left: 32.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt5 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 520%;
+    left: 44%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt6 h1 {
+    font-size: 6rem;
+    position: absolute;
+    top: 624%;
+    left: 39.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt7 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 758%;
+    left: 41.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt8 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 845%;
+    left: 39%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+
+.img1 img {
+    width: 60%;
+    animation: fadeIn ease 10s;
+}
+
+.img2 img {
+    width: 18%;
+    position: absolute;
+    top: 108%;
+    left: 32.2%;
+  	animation: slideleft ease 10s;
+}
+
+.img2_2 img {
+    width: 22%;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    animation: slideright ease 10s;
+}
+
+.img4 img {
+    width: 32%;
+    position: absolute;
+    top: 230%;
+    left: 24%;
+    animation: fadeIn ease 20s;
+}
+
+.img5 img {
+    width: 24%;
+    position: absolute;
+    top: 220%;
+    left: 56%;
+    animation: fadeIn ease 20s;
+}
+
+.img6 img {
+    width: 20%;
+    position: absolute;
+    top: 270%;
+    left: 49%;
+    animation: fadeIn ease 20s;
+}
+
+.img7 img {
+    width: 30%;
+    position: absolute;
+    top: 355%;
+    left: 36%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img8 img {
+    width: 18%;
+    position: absolute;
+    top: 388%;
+    left: 23%;
+  	/* animation: slideleft_img8 ease 10s; */
+}
+
+.img9 img {
+    width: 30%;
+    position: absolute;
+    top: 345%;
+    left: 28%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img10 img {
+    width: 30%;
+    position: absolute;
+    top: 378%;
+    left: 57%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img11 img {
+    width: 15%;
+    position: absolute;
+    top: 466%;
+    left: 31%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img12 img {
+    width: 20%;
+    position: absolute;
+    top: 486%;
+    left: 46%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img13 img {
+    width: 20%;
+    position: absolute;
+    top: 486%;
+    left: 26%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img14 img {
+    width: 14%;
+    position: absolute;
+    top: 617%;
+    left: 38%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img15 img {
+    width: 14%;
+    position: absolute;
+    top: 606%;
+    left: 52%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img16 img {
+    width: 15%;
+    position: absolute;
+    top: 595%;
+    left: 42%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img17 img {
+    width: 22%;
+    position: absolute;
+    top: 660%;
+    left: 24.5%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img18 img {
+    width: 35%;
+    position: absolute;
+    top: 715%;
+    left: 35%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img19 img {
+    width: 18%;
+    position: absolute;
+    top: 713%;
+    left: 39%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img20 img {
+    width: 24%;
+    position: absolute;
+    top: 763%;
+    left: 41%;
+    /* animation: fadeIn ease 20s; */
+}
+
+.img21 img {
+    width: 40%;
+    position: absolute;
+    top: 820%;
+    left: 32%;
+    /* animation: fadeIn ease 10s; */
+}
+
+/* 
+.js .anime {
+opacity: 0;
+transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+opacity: 1;
+transform: translate3D(0px, 0px, 0px);
+transition: .3s all ease;
+} */
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideleft {
+	from {
+        left: 0%;
+    }
+	0% {
+        opacity: 0;
+    }
+	to {
+        left: 32.2%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slideright {
+	from {
+        left: 0%;
+    }
+	0% {
+        opacity: 0;
+    }
+	to {
+        left: 50%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
