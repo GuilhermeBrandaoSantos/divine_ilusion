@@ -1,0 +1,223 @@
+@import 'mixins/_mixins.scss';
+
+@font-face {
+	font-family: "Commodus";
+	src: url("../font/CommodusRegular.otf") format("truetype");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+h1 {
+	font-size: 100px;
+	color: white;
+	font-family: "Commodus";
+	font-weight: 100;
+}
+
+.js {
+	.anime {
+		opacity: 0;
+		transform: translate3D(-50px, 0px, 0px);
+	}
+
+	.anime-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: .3s all ease;
+	}
+}
+
+// COMPOSIÇÃO 1
+
+#comp_1 {
+	@include comp_sizes(50%, fadeIn ease 10s)
+}
+
+// COMPOSIÇÃO 2
+#comp_2 {
+	@include comp_sizes(18%, slideleft ease 10s);
+	@include comp_position(absolute, 108%, 32.2%)
+}
+
+#comp_2_2 {
+	@include comp_sizes(22%, slideright ease 10s);
+	@include comp_position(absolute, 94%, 50%)
+}
+
+// COMPOSIÇÃO 3
+#comp_3 {
+	@include comp_sizes(32%, fadeIn ease 10s);
+	@include comp_position(absolute, 230%, 24%)
+}
+
+#comp_3_2 {
+	@include comp_sizes(24%, fadeIn ease 10s);
+	@include comp_position(absolute, 220%, 56%)
+}
+
+#comp_3_3 {
+	@include comp_sizes(20%, fadeIn ease 10s);
+	@include comp_position(absolute, 265%, 49%)
+}
+
+// COMPOSIÇÃO 4
+#comp_4 {
+	@include comp_sizes(30%, fadeIn ease 10s);
+	@include comp_position(absolute, 355%, 36%)
+}
+
+#comp_4_2 {
+	@include comp_sizes(18%, fadeIn ease 10s);
+	@include comp_position(absolute, 383%, 23%)
+}
+
+#comp_4_3 {
+	@include comp_sizes(30%, fadeIn ease 10s);
+	@include comp_position(absolute, 345%, 28%)
+}
+
+#comp_4_4 {
+	@include comp_sizes(30%, fadeIn ease 10s);
+	@include comp_position(absolute, 375%, 57%)
+}
+
+// COMPOSIÇÃO 5
+#comp_5 {
+	@include comp_sizes(20%, fadeIn ease 10s);
+	@include comp_position(absolute, 486%, 46%)
+}
+
+#comp_5_2 {
+	@include comp_sizes(20%, fadeIn ease 10s);
+	@include comp_position(absolute, 486%, 26%)
+}
+
+#comp_5_3 {
+	@include comp_sizes(15%, fadeIn ease 10s);
+	@include comp_position(absolute, 466%, 31%)
+}
+
+// COMPOSIÇÃO 6
+#comp_6 {
+	@include comp_sizes(14%, fadeIn ease 10s);
+	@include comp_position(absolute, 617%, 38%)
+}
+
+#comp_6_2 {
+	@include comp_sizes(14%, fadeIn ease 10s);
+	@include comp_position(absolute, 609%, 52%)
+}
+
+#comp_6_3 {
+	@include comp_sizes(15%, fadeIn ease 10s);
+	@include comp_position(absolute, 598%, 42%)
+}
+
+#comp_6_4 {
+	@include comp_sizes(22%, fadeIn ease 10s);
+	@include comp_position(absolute, 653%, 24.5%)
+}
+
+// COMPOSIÇÃO 7
+#comp_7 {
+	@include comp_sizes(35%, fadeIn ease 10s);
+	@include comp_position(absolute, 715%, 35%)
+}
+
+#comp_7_2 {
+	@include comp_sizes(24%, fadeIn ease 10s);
+	@include comp_position(absolute, 756%, 41%)
+}
+
+#comp_7_3 {
+	@include comp_sizes(18%, fadeIn ease 10s);
+	@include comp_position(absolute, 713%, 39%)
+}
+
+// COMPOSIÇÃO 8
+#comp_8 {
+	@include comp_sizes(40%, fadeIn ease 10s);
+	@include comp_position(absolute, 820%, 32%)
+}
+
+#comp_txt_1{
+	h1{
+		
+	}
+}
+
+.txt1 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 28%;
+    left: 36%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt2 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 138%;
+    left: 40%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt3 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 260%;
+    left: 40%;
+    z-index: 9999999;
+    animation: fadeIn ease 15s;
+}
+
+.txt4 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 392%;
+    left: 32.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt5 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 520%;
+    left: 44%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt6 h1 {
+    font-size: 6rem;
+    position: absolute;
+    top: 624%;
+    left: 39.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt7 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 758%;
+    left: 41.5%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}
+
+.txt8 h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 845%;
+    left: 39%;
+    z-index: 9999999;
+    /* animation: fadeIn ease 15s; */
+}

@@ -1,0 +1,57 @@
+@mixin comp_sizes($tamanho, $animacao) {
+	width: $tamanho;
+	animation: $animacao
+}
+
+@mixin comp_position($position, $top, $left) {
+	position: $position;
+	top: $top;
+	left: $left;
+}
+
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideleft {
+	from {
+		left: 0%;
+	}
+
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		left: 32.2%;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideright {
+	from {
+		left: 0%;
+	}
+
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		left: 50%;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
