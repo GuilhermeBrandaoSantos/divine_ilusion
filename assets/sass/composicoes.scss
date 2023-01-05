@@ -19,33 +19,59 @@ h1 {
 }
 
 .js {
-	.anime {
+	.comp-animacao {
 		opacity: 0;
-		transform: translate3D(-50px, 0px, 0px);
+		transform: translate3D(-600px, 0px, 0px);
 	}
-
-	.anime-init {
+	.comp-animacao-init {
 		opacity: 1;
 		transform: translate3D(0px, 0px, 0px);
-		transition: .3s all ease;
+		transition: 10s all ease;
+	}
+	
+	.comp2-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp22-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	
+	.comp2-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 20s all ease;
 	}
 }
 
-// COMPOSIÇÃO 1
+.rotated {
+	transform: rotate(90deg);
+	/* Equal to rotateZ(45deg) */
+}
 
+// COMPOSIÇÃO 1
 #comp_1 {
 	@include comp_sizes(50%, fadeIn ease 10s)
 }
 
+#comp_txt_1 {
+	@include comp_text(11rem, absolute, 32%, 35.5%, 9999999, fadeIn ease 15s);
+}
+
 // COMPOSIÇÃO 2
 #comp_2 {
-	@include comp_sizes(18%, slideleft ease 10s);
+	@include comp_sizes(18%, none);
 	@include comp_position(absolute, 108%, 32.2%)
 }
 
 #comp_2_2 {
-	@include comp_sizes(22%, slideright ease 10s);
+	@include comp_sizes(22%, none);
 	@include comp_position(absolute, 94%, 50%)
+}
+
+#comp_txt_2 {
+	@include comp_text(8rem, absolute, 131%, 44%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 3
@@ -63,6 +89,11 @@ h1 {
 	@include comp_sizes(20%, fadeIn ease 10s);
 	@include comp_position(absolute, 265%, 49%)
 }
+
+#comp_txt_3 {
+	@include comp_text(10rem, absolute, 257%, 42.5%, 9999999, fadeIn ease 15s);
+}
+
 
 // COMPOSIÇÃO 4
 #comp_4 {
@@ -85,6 +116,10 @@ h1 {
 	@include comp_position(absolute, 375%, 57%)
 }
 
+#comp_txt_4 {
+	@include comp_text(10rem, absolute, 387%, 34%, 9999999, fadeIn ease 15s);
+}
+
 // COMPOSIÇÃO 5
 #comp_5 {
 	@include comp_sizes(20%, fadeIn ease 10s);
@@ -99,6 +134,10 @@ h1 {
 #comp_5_3 {
 	@include comp_sizes(15%, fadeIn ease 10s);
 	@include comp_position(absolute, 466%, 31%)
+}
+
+#comp_txt_5 {
+	@include comp_text(11rem, absolute, 514%, 42%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 6
@@ -122,6 +161,10 @@ h1 {
 	@include comp_position(absolute, 653%, 24.5%)
 }
 
+#comp_txt_6 {
+	@include comp_text(9rem, absolute, 623%, 40%, 9999999, fadeIn ease 15s);
+}
+
 // COMPOSIÇÃO 7
 #comp_7 {
 	@include comp_sizes(35%, fadeIn ease 10s);
@@ -138,86 +181,16 @@ h1 {
 	@include comp_position(absolute, 713%, 39%)
 }
 
+#comp_txt_7 {
+	@include comp_text(9rem, absolute, 752%, 45%, 9999999, fadeIn ease 15s);
+}
+
 // COMPOSIÇÃO 8
 #comp_8 {
 	@include comp_sizes(40%, fadeIn ease 10s);
 	@include comp_position(absolute, 820%, 32%)
 }
 
-#comp_txt_1{
-	h1{
-		
-	}
-}
-
-.txt1 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 28%;
-    left: 36%;
-    z-index: 9999999;
-    animation: fadeIn ease 15s;
-}
-
-.txt2 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 138%;
-    left: 40%;
-    z-index: 9999999;
-    animation: fadeIn ease 15s;
-}
-
-.txt3 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 260%;
-    left: 40%;
-    z-index: 9999999;
-    animation: fadeIn ease 15s;
-}
-
-.txt4 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 392%;
-    left: 32.5%;
-    z-index: 9999999;
-    /* animation: fadeIn ease 15s; */
-}
-
-.txt5 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 520%;
-    left: 44%;
-    z-index: 9999999;
-    /* animation: fadeIn ease 15s; */
-}
-
-.txt6 h1 {
-    font-size: 6rem;
-    position: absolute;
-    top: 624%;
-    left: 39.5%;
-    z-index: 9999999;
-    /* animation: fadeIn ease 15s; */
-}
-
-.txt7 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 758%;
-    left: 41.5%;
-    z-index: 9999999;
-    /* animation: fadeIn ease 15s; */
-}
-
-.txt8 h1 {
-    font-size: 7rem;
-    position: absolute;
-    top: 845%;
-    left: 39%;
-    z-index: 9999999;
-    /* animation: fadeIn ease 15s; */
+#comp_txt_8 {
+	@include comp_text(9rem, absolute, 843%, 41%, 9999999, fadeIn ease 15s);
 }

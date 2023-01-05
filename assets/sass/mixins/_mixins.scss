@@ -9,6 +9,15 @@
 	left: $left;
 }
 
+@mixin comp_text($tamanho, $position, $top, $left, $z_index, $animacao) {
+	font-size: $tamanho;
+	position: $position;
+	top: $top;
+	left: $left;
+	z-index: $z_index;
+	animation: $animacao;
+}
+
 
 @keyframes fadeIn {
 	0% {
