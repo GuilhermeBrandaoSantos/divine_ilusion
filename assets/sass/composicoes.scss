@@ -19,6 +19,8 @@ h1 {
 }
 
 .js {
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 1
 	.comp-animacao {
 		opacity: 0;
 		transform: translate3D(-600px, 0px, 0px);
@@ -28,7 +30,19 @@ h1 {
 		transform: translate3D(0px, 0px, 0px);
 		transition: 10s all ease;
 	}
+
+	.comp-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 600px, 0px);
+	}
+	.comp-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
 	
+	// ANIMAÇÃO DA COMPOSIÇÃO 2
 	.comp2-animacao {
 		opacity: 0;
 		transform: translate3D(-600px, 0px, 0px);
@@ -37,12 +51,85 @@ h1 {
 		opacity: 0;
 		transform: translate3D(600px, 0px, 0px);
 	}
-	
 	.comp2-animacao-init {
 		opacity: 1;
 		transform: translate3D(0px, 0px, 0px);
-		transition: 20s all ease;
+		transition: 10s all ease;
 	}
+
+	.comp2-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 500px, 0px);
+	}
+	.comp2-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 3
+	.comp3-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp32-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp33-animacao {
+		opacity: 0;
+		transform: translate3D(700px, 0px, 0px);
+	}
+	.comp3-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	.comp3-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 500px, 0px);
+	}
+	.comp3-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 4
+	.comp4-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp42-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp43-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp44-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp4-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 15s all ease;
+	}
+
+	.comp4-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 400px, 0px);
+	}
+	.comp4-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+	
+
 }
 
 .rotated {
@@ -52,11 +139,11 @@ h1 {
 
 // COMPOSIÇÃO 1
 #comp_1 {
-	@include comp_sizes(50%, fadeIn ease 10s)
+	@include comp_sizes(50%, none)
 }
 
 #comp_txt_1 {
-	@include comp_text(11rem, absolute, 32%, 35.5%, 9999999, fadeIn ease 15s);
+	@include comp_text(11rem, absolute, 32%, 35.5%, 9999999, none);
 }
 
 // COMPOSIÇÃO 2
@@ -71,7 +158,7 @@ h1 {
 }
 
 #comp_txt_2 {
-	@include comp_text(8rem, absolute, 131%, 44%, 9999999, fadeIn ease 15s);
+	@include comp_text(8rem, absolute, 133%, 44%, 9999999, none);
 }
 
 // COMPOSIÇÃO 3

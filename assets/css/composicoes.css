@@ -97,6 +97,15 @@ h1 {
   transform: translate3D(0px, 0px, 0px);
   transition: 10s all ease;
 }
+.js .comp-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 600px, 0px);
+}
+.js .comp-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
 .js .comp2-animacao {
   opacity: 0;
   transform: translate3D(-600px, 0px, 0px);
@@ -108,7 +117,72 @@ h1 {
 .js .comp2-animacao-init {
   opacity: 1;
   transform: translate3D(0px, 0px, 0px);
-  transition: 20s all ease;
+  transition: 10s all ease;
+}
+.js .comp2-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 500px, 0px);
+}
+.js .comp2-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp3-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp32-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp33-animacao {
+  opacity: 0;
+  transform: translate3D(700px, 0px, 0px);
+}
+.js .comp3-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp3-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 500px, 0px);
+}
+.js .comp3-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp4-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp42-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp43-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp44-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp4-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 15s all ease;
+}
+.js .comp4-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 400px, 0px);
+}
+.js .comp4-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
 }
 
 .rotated {
@@ -118,8 +192,8 @@ h1 {
 
 #comp_1 {
   width: 50%;
-  -webkit-animation: fadeIn ease 10s;
-          animation: fadeIn ease 10s;
+  -webkit-animation: none;
+          animation: none;
 }
 
 #comp_txt_1 {
@@ -128,8 +202,8 @@ h1 {
   top: 32%;
   left: 35.5%;
   z-index: 9999999;
-  -webkit-animation: fadeIn ease 15s;
-          animation: fadeIn ease 15s;
+  -webkit-animation: none;
+          animation: none;
 }
 
 #comp_2 {
@@ -153,11 +227,11 @@ h1 {
 #comp_txt_2 {
   font-size: 8rem;
   position: absolute;
-  top: 131%;
+  top: 133%;
   left: 44%;
   z-index: 9999999;
-  -webkit-animation: fadeIn ease 15s;
-          animation: fadeIn ease 15s;
+  -webkit-animation: none;
+          animation: none;
 }
 
 #comp_3 {
