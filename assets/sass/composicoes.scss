@@ -128,9 +128,122 @@ h1 {
 		transform: translate3D(0px, 0px, 0px);
 		transition: 10s all ease;
 	}
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 5
+	.comp5-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp52-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp53-animacao {
+		opacity: 0;
+		transform: translate3D(700px, 0px, 0px);
+	}
+	.comp5-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	.comp5-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 500px, 0px);
+	}
+	.comp5-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+		transform: rotate(90deg);
+	}
 	
+	// ANIMAÇÃO DA COMPOSIÇÃO 6
+	.comp6-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp62-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp63-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp64-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp6-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 15s all ease;
+	}
+
+	.comp6-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 400px, 0px);
+	}
+	.comp6-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 7
+	.comp7-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
+	.comp72-animacao {
+		opacity: 0;
+		transform: translate3D(800px, 0px, 0px);
+	}
+	.comp73-animacao {
+		opacity: 0;
+		transform: translate3D(600px, 0px, 0px);
+	}
+	.comp7-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	.comp7-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 500px, 0px);
+	}
+	.comp7-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	// ANIMAÇÃO DA COMPOSIÇÃO 8
+	.comp8-animacao {
+		opacity: 0;
+		transform: translate3D(500px, 0px, 0px);
+	}
+	.comp8-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
+
+	.comp8-text-animacao {
+		opacity: 0;
+		transform: translate3D(0, 500px, 0px);
+	}
+	.comp8-text-animacao-init {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: 10s all ease;
+	}
 
 }
+
 
 .rotated {
 	transform: rotate(90deg);
@@ -143,7 +256,7 @@ h1 {
 }
 
 #comp_txt_1 {
-	@include comp_text(11rem, absolute, 32%, 35.5%, 9999999, none);
+	@include comp_text(7rem, absolute, 35.3%, 36%, 9999999, none);
 }
 
 // COMPOSIÇÃO 2
@@ -154,11 +267,11 @@ h1 {
 
 #comp_2_2 {
 	@include comp_sizes(22%, none);
-	@include comp_position(absolute, 94%, 50%)
+	@include comp_position(absolute, 96%, 50%)
 }
 
 #comp_txt_2 {
-	@include comp_text(8rem, absolute, 133%, 44%, 9999999, none);
+	@include comp_text(7rem, absolute, 133%, 40%, 9999999, none);
 }
 
 // COMPOSIÇÃO 3
@@ -178,7 +291,7 @@ h1 {
 }
 
 #comp_txt_3 {
-	@include comp_text(10rem, absolute, 257%, 42.5%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 256%, 37%, 9999999, fadeIn ease 15s);
 }
 
 
@@ -204,7 +317,7 @@ h1 {
 }
 
 #comp_txt_4 {
-	@include comp_text(10rem, absolute, 387%, 34%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 387%, 34%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 5
@@ -224,7 +337,7 @@ h1 {
 }
 
 #comp_txt_5 {
-	@include comp_text(11rem, absolute, 514%, 42%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 515%, 43%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 6
@@ -240,16 +353,16 @@ h1 {
 
 #comp_6_3 {
 	@include comp_sizes(15%, fadeIn ease 10s);
-	@include comp_position(absolute, 598%, 42%)
+	@include comp_position(absolute, 598%, 43%)
 }
 
 #comp_6_4 {
 	@include comp_sizes(22%, fadeIn ease 10s);
-	@include comp_position(absolute, 653%, 24.5%)
+	@include comp_position(absolute, 657%, 24.5%)
 }
 
 #comp_txt_6 {
-	@include comp_text(9rem, absolute, 623%, 40%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 623%, 37%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 7
@@ -269,7 +382,7 @@ h1 {
 }
 
 #comp_txt_7 {
-	@include comp_text(9rem, absolute, 752%, 45%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 752%, 43%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 8
@@ -279,5 +392,11 @@ h1 {
 }
 
 #comp_txt_8 {
-	@include comp_text(9rem, absolute, 843%, 41%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 843%, 41%, 9999999, fadeIn ease 15s);
+}
+
+// COMPOSIÇÃO 9
+#comp_9 {
+	@include comp_sizes(35%, fadeIn ease 10s);
+	@include comp_position(absolute, 900%, 35%)
 }

@@ -184,6 +184,107 @@ h1 {
   transform: translate3D(0px, 0px, 0px);
   transition: 10s all ease;
 }
+.js .comp5-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp52-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp53-animacao {
+  opacity: 0;
+  transform: translate3D(700px, 0px, 0px);
+}
+.js .comp5-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp5-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 500px, 0px);
+}
+.js .comp5-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+  transform: rotate(90deg);
+}
+.js .comp6-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp62-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp63-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp64-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp6-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 15s all ease;
+}
+.js .comp6-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 400px, 0px);
+}
+.js .comp6-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp7-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
+.js .comp72-animacao {
+  opacity: 0;
+  transform: translate3D(800px, 0px, 0px);
+}
+.js .comp73-animacao {
+  opacity: 0;
+  transform: translate3D(600px, 0px, 0px);
+}
+.js .comp7-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp7-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 500px, 0px);
+}
+.js .comp7-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp8-animacao {
+  opacity: 0;
+  transform: translate3D(500px, 0px, 0px);
+}
+.js .comp8-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
+.js .comp8-text-animacao {
+  opacity: 0;
+  transform: translate3D(0, 500px, 0px);
+}
+.js .comp8-text-animacao-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 10s all ease;
+}
 
 .rotated {
   transform: rotate(90deg);
@@ -197,10 +298,10 @@ h1 {
 }
 
 #comp_txt_1 {
-  font-size: 11rem;
+  font-size: 7rem;
   position: absolute;
-  top: 32%;
-  left: 35.5%;
+  top: 35.3%;
+  left: 36%;
   z-index: 9999999;
   -webkit-animation: none;
           animation: none;
@@ -220,15 +321,15 @@ h1 {
   -webkit-animation: none;
           animation: none;
   position: absolute;
-  top: 94%;
+  top: 96%;
   left: 50%;
 }
 
 #comp_txt_2 {
-  font-size: 8rem;
+  font-size: 7rem;
   position: absolute;
   top: 133%;
-  left: 44%;
+  left: 40%;
   z-index: 9999999;
   -webkit-animation: none;
           animation: none;
@@ -262,10 +363,10 @@ h1 {
 }
 
 #comp_txt_3 {
-  font-size: 10rem;
+  font-size: 7rem;
   position: absolute;
-  top: 257%;
-  left: 42.5%;
+  top: 256%;
+  left: 37%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
@@ -308,7 +409,7 @@ h1 {
 }
 
 #comp_txt_4 {
-  font-size: 10rem;
+  font-size: 7rem;
   position: absolute;
   top: 387%;
   left: 34%;
@@ -345,10 +446,10 @@ h1 {
 }
 
 #comp_txt_5 {
-  font-size: 11rem;
+  font-size: 7rem;
   position: absolute;
-  top: 514%;
-  left: 42%;
+  top: 515%;
+  left: 43%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
@@ -378,7 +479,7 @@ h1 {
           animation: fadeIn ease 10s;
   position: absolute;
   top: 598%;
-  left: 42%;
+  left: 43%;
 }
 
 #comp_6_4 {
@@ -386,15 +487,15 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 653%;
+  top: 657%;
   left: 24.5%;
 }
 
 #comp_txt_6 {
-  font-size: 9rem;
+  font-size: 7rem;
   position: absolute;
   top: 623%;
-  left: 40%;
+  left: 37%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
@@ -428,10 +529,10 @@ h1 {
 }
 
 #comp_txt_7 {
-  font-size: 9rem;
+  font-size: 7rem;
   position: absolute;
   top: 752%;
-  left: 45%;
+  left: 43%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
@@ -447,11 +548,20 @@ h1 {
 }
 
 #comp_txt_8 {
-  font-size: 9rem;
+  font-size: 7rem;
   position: absolute;
   top: 843%;
   left: 41%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
+}
+
+#comp_9 {
+  width: 35%;
+  -webkit-animation: fadeIn ease 10s;
+          animation: fadeIn ease 10s;
+  position: absolute;
+  top: 900%;
+  left: 35%;
 }/*# sourceMappingURL=composicoes.css.map */
