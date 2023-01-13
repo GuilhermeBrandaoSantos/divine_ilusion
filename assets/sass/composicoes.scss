@@ -142,6 +142,10 @@ h1 {
 		opacity: 0;
 		transform: translate3D(700px, 0px, 0px);
 	}
+	.comp54-animacao {
+		opacity: 0;
+		transform: translate3D(-600px, 0px, 0px);
+	}
 	.comp5-animacao-init {
 		opacity: 1;
 		transform: translate3D(0px, 0px, 0px);
@@ -328,12 +332,17 @@ h1 {
 
 #comp_5_2 {
 	@include comp_sizes(20%, fadeIn ease 10s);
-	@include comp_position(absolute, 486%, 26%)
+	@include comp_position(absolute, 493%, 26%)
 }
 
 #comp_5_3 {
 	@include comp_sizes(15%, fadeIn ease 10s);
 	@include comp_position(absolute, 466%, 31%)
+}
+
+#comp_5_4 {
+	@include comp_sizes(11%, fadeIn ease 10s);
+	@include comp_position(absolute, 500%, 39%)
 }
 
 #comp_txt_5 {

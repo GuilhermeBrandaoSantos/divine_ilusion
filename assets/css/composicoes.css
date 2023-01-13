@@ -196,6 +196,10 @@ h1 {
   opacity: 0;
   transform: translate3D(700px, 0px, 0px);
 }
+.js .comp54-animacao {
+  opacity: 0;
+  transform: translate3D(-600px, 0px, 0px);
+}
 .js .comp5-animacao-init {
   opacity: 1;
   transform: translate3D(0px, 0px, 0px);
@@ -432,7 +436,7 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 486%;
+  top: 493%;
   left: 26%;
 }
 
@@ -443,6 +447,15 @@ h1 {
   position: absolute;
   top: 466%;
   left: 31%;
+}
+
+#comp_5_4 {
+  width: 11%;
+  -webkit-animation: fadeIn ease 10s;
+          animation: fadeIn ease 10s;
+  position: absolute;
+  top: 500%;
+  left: 39%;
 }
 
 #comp_txt_5 {

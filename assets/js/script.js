@@ -238,6 +238,7 @@ function animeScroll5() {
 	var comp5 = $('.comp5-animacao')
 	var comp52 = $('.comp52-animacao')
 	var comp53 = $('.comp53-animacao')
+	var comp54 = $('.comp54-animacao')
 	var comp5AnimationClass = 'comp5-animacao-init'
 	var windowHeight = $(window).height()
 	var offset = windowHeight - (windowHeight / 4);
@@ -258,6 +259,13 @@ function animeScroll5() {
 		}
 	});
 	comp53.each(function () {
+		if (documentTop > boxTop(this) - offset) {
+			$(this).addClass(comp5AnimationClass);
+		} else {
+			$(this).removeClass(comp5AnimationClass);
+		}
+	});
+	comp54.each(function () {
 		if (documentTop > boxTop(this) - offset) {
 			$(this).addClass(comp5AnimationClass);
 		} else {
