@@ -552,19 +552,19 @@ h1 {
 }
 
 #comp_8 {
-  width: 40%;
-  -webkit-animation: fadeIn ease 10s;
-          animation: fadeIn ease 10s;
+  width: 50%;
+  -webkit-animation: none;
+          animation: none;
   position: absolute;
   top: 820%;
-  left: 32%;
+  left: 28%;
 }
 
 #comp_txt_8 {
   font-size: 7rem;
   position: absolute;
   top: 843%;
-  left: 41%;
+  left: 36%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;

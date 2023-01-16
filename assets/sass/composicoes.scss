@@ -396,12 +396,12 @@ h1 {
 
 // COMPOSIÇÃO 8
 #comp_8 {
-	@include comp_sizes(40%, fadeIn ease 10s);
-	@include comp_position(absolute, 820%, 32%)
+	@include comp_sizes(50%, none);
+	@include comp_position(absolute, 820%, 28%)
 }
 
 #comp_txt_8 {
-	@include comp_text(7rem, absolute, 843%, 41%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 843%, 36%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 9
