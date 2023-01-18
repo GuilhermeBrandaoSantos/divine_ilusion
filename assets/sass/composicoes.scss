@@ -266,16 +266,16 @@ h1 {
 // COMPOSIÇÃO 2
 #comp_2 {
 	@include comp_sizes(18%, none);
-	@include comp_position(absolute, 108%, 32.2%)
+	@include comp_position(absolute, 112%, 32.2%)
 }
 
 #comp_2_2 {
 	@include comp_sizes(22%, none);
-	@include comp_position(absolute, 96%, 50%)
+	@include comp_position(absolute, 100%, 50%)
 }
 
 #comp_txt_2 {
-	@include comp_text(7rem, absolute, 133%, 40%, 9999999, none);
+	@include comp_text(7rem, absolute, 137.5%, 40%, 9999999, none);
 }
 
 // COMPOSIÇÃO 3
@@ -327,7 +327,7 @@ h1 {
 // COMPOSIÇÃO 5
 #comp_5 {
 	@include comp_sizes(20%, fadeIn ease 10s);
-	@include comp_position(absolute, 486%, 46%)
+	@include comp_position(absolute, 489%, 46%)
 }
 
 #comp_5_2 {
@@ -337,16 +337,16 @@ h1 {
 
 #comp_5_3 {
 	@include comp_sizes(15%, fadeIn ease 10s);
-	@include comp_position(absolute, 466%, 31%)
+	@include comp_position(absolute, 468%, 32%)
 }
 
 #comp_5_4 {
 	@include comp_sizes(11%, fadeIn ease 10s);
-	@include comp_position(absolute, 500%, 39%)
+	@include comp_position(absolute, 499.5%, 39%)
 }
 
 #comp_txt_5 {
-	@include comp_text(7rem, absolute, 515%, 43%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 519%, 43%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 6
@@ -401,11 +401,11 @@ h1 {
 }
 
 #comp_txt_8 {
-	@include comp_text(7rem, absolute, 843%, 36%, 9999999, fadeIn ease 15s);
+	@include comp_text(7rem, absolute, 849%, 38.3%, 9999999, fadeIn ease 15s);
 }
 
 // COMPOSIÇÃO 9
 #comp_9 {
 	@include comp_sizes(35%, fadeIn ease 10s);
-	@include comp_position(absolute, 900%, 35%)
+	@include comp_position(absolute, 930%, 35%)
 }

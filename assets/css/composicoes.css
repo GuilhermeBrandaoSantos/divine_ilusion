@@ -316,7 +316,7 @@ h1 {
   -webkit-animation: none;
           animation: none;
   position: absolute;
-  top: 108%;
+  top: 112%;
   left: 32.2%;
 }
 
@@ -325,14 +325,14 @@ h1 {
   -webkit-animation: none;
           animation: none;
   position: absolute;
-  top: 96%;
+  top: 100%;
   left: 50%;
 }
 
 #comp_txt_2 {
   font-size: 7rem;
   position: absolute;
-  top: 133%;
+  top: 137.5%;
   left: 40%;
   z-index: 9999999;
   -webkit-animation: none;
@@ -427,7 +427,7 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 486%;
+  top: 489%;
   left: 46%;
 }
 
@@ -445,8 +445,8 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 466%;
-  left: 31%;
+  top: 468%;
+  left: 32%;
 }
 
 #comp_5_4 {
@@ -454,14 +454,14 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 500%;
+  top: 499.5%;
   left: 39%;
 }
 
 #comp_txt_5 {
   font-size: 7rem;
   position: absolute;
-  top: 515%;
+  top: 519%;
   left: 43%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
@@ -563,8 +563,8 @@ h1 {
 #comp_txt_8 {
   font-size: 7rem;
   position: absolute;
-  top: 843%;
-  left: 36%;
+  top: 849%;
+  left: 38.3%;
   z-index: 9999999;
   -webkit-animation: fadeIn ease 15s;
           animation: fadeIn ease 15s;
@@ -575,6 +575,6 @@ h1 {
   -webkit-animation: fadeIn ease 10s;
           animation: fadeIn ease 10s;
   position: absolute;
-  top: 900%;
+  top: 930%;
   left: 35%;
 }/*# sourceMappingURL=composicoes.css.map */
